@@ -1,0 +1,45 @@
+@font-face {
+    font-family: faust;
+    src: url(../fonts/FAUSTUS.TTF);
+}
+
+h1,
+h2 {
+    font-family: faust;
+}
+
+body {
+    background: #F5DA81;
+}
+
+#pagewrap {
+    height: 98%;
+    width: 1111px;
+    margin: 60px auto;
+}
+
+
+#box {
+    width: 100%;
+    background: white;
+    height: 500px;
+    /*margin:auto;*/
+}
+
+.left,
+.right {
+    float: left;
+    width: 50%;
+    overflow: scroll;
+    height: 500px;
+    padding: 4%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
